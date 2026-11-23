@@ -1,0 +1,320 @@
+{
+  "slug": "marina-vieira",
+  "negocio": {
+    "nome": "Marina Vieira Fisioterapia & Pilates",
+    "logo": "brand/logo-branco.png",
+    "whatsapp": "5562991899441",
+    "telefone": "(62) 99189-9441",
+    "funcionamento": {
+      "seg": "07:30-18:00",
+      "ter": "07:30-18:00",
+      "qua": "08:00-18:00",
+      "qui": "08:00-18:00",
+      "sex": "08:00-18:00",
+      "sab": "08:00-10:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Setor Central · Anápolis",
+        "endereco": "R. Eugênio Jardim, 240 – Setor Central, Anápolis – GO, 75023-080",
+        "telefone": "(62) 99189-9441",
+        "horario": "Segunda e terça, das 7h30 às 18h · quarta a sexta, das 8h às 18h · sábado, das 8h às 10h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#B3175F",
+    "brand2": "#6E0E3B",
+    "ink": "#2A0E1D",
+    "bg": "#FBF6F8",
+    "pulse": "#E0307E",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Montserrat",
+    "fontBody": "DM Sans",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Pilates",
+            "href": "#pilates"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Fisioterapia · Pélvica · Pilates · Anápolis",
+        "h1": "Menos dor, mais movimento",
+        "lead": "Fisioterapia geral e esportiva, fisioterapia pélvica, laser e taping no pós-parto, liberação miofascial e Pilates para todas as idades, no Setor Central de Anápolis.",
+        "cta": "Marcar avaliação pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/retrato.jpg",
+        "imagemAlt": "Dra. Marina Vieira de jaleco em frente à fachada da clínica, na Rua Eugênio Jardim",
+        "tarja": [
+          "5,0 no Google, 224 avaliações",
+          "Pilates para gestantes",
+          "Segunda e terça, a partir das 7h30",
+          "Aceita TotalPass no Pilates"
+        ],
+        "selo": "Fisioterapia & Pilates · Anápolis · "
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Fisioterapia pélvica",
+          "Laser e taping pós-parto",
+          "Liberação miofascial",
+          "Pilates",
+          "Fisioterapia esportiva",
+          "Recovery",
+          "DTM e dor orofacial"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "data": {
+        "eyebrow": "Quem atende",
+        "citacao": "Desde o primeiro atendimento me senti muito acolhida e segura.",
+        "autor": "Maianna, no Google",
+        "texto": [
+          "Na clínica da Rua Eugênio Jardim quem examina, explica e trata é a Dra. Marina Vieira. A primeira sessão serve para entender de onde vem a dor e o que ela está tirando do seu dia.",
+          "O plano sai dessa avaliação e muda conforme o corpo responde. Entre uma sessão e outra, você leva para casa o que fazer, e quando a dor passa, o Pilates fica no mesmo endereço."
+        ],
+        "imagem": "midia/f05.jpg",
+        "imagemAlt": "Dra. Marina Vieira em sua mesa, com o nome dela na parede ao fundo"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que a Dra. Marina trata",
+        "lead": "Na avaliação você descobre qual destes faz sentido para o seu caso, e muitas vezes são dois ao mesmo tempo.",
+        "itens": [
+          {
+            "nome": "Fisioterapia pélvica e saúde da mulher",
+            "icone": "mulher",
+            "descricao": "Escape de urina, dor pélvica, dor na relação e preparo do corpo para o parto. Avaliação individual, com tempo para conversar."
+          },
+          {
+            "nome": "Laserterapia e taping no pós-parto",
+            "icone": "laser",
+            "descricao": "Laser para ajudar na cicatrização e taping para dar suporte ao abdômen e à lombar nas primeiras semanas com o bebê."
+          },
+          {
+            "nome": "Liberação miofascial",
+            "icone": "mao",
+            "descricao": "Técnica manual para a tensão que trava o pescoço, os ombros e a cabeça. Muita gente chega pela enxaqueca de origem muscular.",
+            "imagem": "midia/f03.jpg"
+          },
+          {
+            "nome": "Fisioterapia geral e esportiva",
+            "icone": "osso",
+            "descricao": "Dor no ombro, na coluna, no joelho e nos pés, entorse e lesão de treino. Terapia manual, aparelhos e exercício até a alta."
+          },
+          {
+            "nome": "Recovery",
+            "icone": "gota",
+            "descricao": "Recuperação muscular para quem treina pesado ou tem prova marcada, para voltar ao treino sem carregar o cansaço."
+          },
+          {
+            "nome": "DTM e dor orofacial",
+            "icone": "rosto",
+            "descricao": "Dor na mandíbula, estalo ao abrir a boca e dor de cabeça de quem aperta os dentes à noite."
+          },
+          {
+            "nome": "Fisioterapia domiciliar",
+            "icone": "local",
+            "descricao": "Para quem não consegue sair de casa, por idade, cirurgia recente ou pós-parto: o atendimento vai até você."
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/gestacao.html"
+    },
+    {
+      "custom": "blocos/pilates.html"
+    },
+    {
+      "id": "conversa",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Marcar leva uma mensagem",
+        "lead": "A dúvida mais comum de quem acabou de ter bebê, respondida do jeito que a clínica responde.",
+        "cta": "Mandar mensagem",
+        "contato": "Marina Vieira Fisioterapia",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Tive bebê faz 40 dias e ainda escapa xixi quando espirro. Já posso fazer fisioterapia pélvica?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Pode sim, e é comum nessa fase. Se o obstetra já te liberou, a gente começa com uma avaliação."
+          },
+          {
+            "de": "clinica",
+            "texto": "Tenho horário quinta às 8h ou sexta às 16h. Pode trazer o bebê se precisar."
+          },
+          {
+            "de": "paciente",
+            "texto": "Quinta às 8h, por favor!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "224",
+            "rotulo": "avaliações de pacientes",
+            "contar": 224
+          },
+          {
+            "valor": "6",
+            "rotulo": "dias de atendimento por semana",
+            "contar": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que os pacientes contam",
+        "itens": [
+          {
+            "texto": "Fui com enxaqueca recorrente por tensão muscular, tomava remédio para dor todos os dias. Hoje fazem 5 dias e não tomei nenhum.",
+            "autor": "Ana Clara",
+            "contexto": "Liberação miofascial"
+          },
+          {
+            "texto": "Teve uma abordagem muito eficaz com a lesão que eu tive e ainda me ajudou com outras dores. Saí reabilitado depois de poucas sessões.",
+            "autor": "Max",
+            "contexto": "Reabilitação de lesão"
+          },
+          {
+            "texto": "Curou os meus ombros! Muito eficiente, explica tudo.",
+            "autor": "Lara",
+            "contexto": "Dor no ombro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O espaço",
+        "lead": "Consultório, sala de Pilates e recepção, tudo no térreo da Rua Eugênio Jardim.",
+        "itens": [
+          {
+            "imagem": "midia/f10.jpg",
+            "legenda": "Recepção"
+          },
+          {
+            "imagem": "midia/f07.jpg",
+            "legenda": "Consultório"
+          },
+          {
+            "imagem": "midia/f04.jpg",
+            "legenda": "Aparelhos de Pilates"
+          },
+          {
+            "imagem": "midia/f08.jpg",
+            "legenda": "Sala de Pilates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "Preciso de pedido médico?",
+            "r": "Não para marcar a avaliação. Se tiver exames ou relatório do seu médico, traga na primeira sessão."
+          },
+          {
+            "p": "Quando posso começar a fisioterapia pélvica depois do parto?",
+            "r": "Depende do tipo de parto e da liberação do obstetra. Na avaliação a Dra. Marina diz o que dá para fazer já e o que espera mais algumas semanas."
+          },
+          {
+            "p": "O Pilates aceita TotalPass?",
+            "r": "Sim, o estúdio está no TotalPass. Mande uma mensagem para ver os horários livres."
+          },
+          {
+            "p": "Vocês atendem em casa?",
+            "r": "Sim. A fisioterapia domiciliar atende quem não consegue ir até a clínica."
+          },
+          {
+            "p": "A clínica é acessível?",
+            "r": "Sim, tem banheiro e estacionamento acessíveis para cadeira de rodas."
+          },
+          {
+            "p": "Qual o horário?",
+            "r": "Segunda e terça das 7h30 às 18h, quarta a sexta das 8h às 18h e sábado das 8h às 10h."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/f01.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Conte o que está doendo",
+        "lead": "Mande uma mensagem com a sua queixa e a melhor hora para você. A resposta vem com o horário da avaliação.",
+        "cta": "Falar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer"
+    }
+  ]
+}

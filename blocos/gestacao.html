@@ -1,0 +1,49 @@
+<section class="blk-gs" id="gestacao">
+  <div class="wrap">
+    <div class="blk-gs__cab" data-reveal>
+      <p class="blk-gs__eyebrow">Antes, durante e depois</p>
+      <h2 class="blk-gs__titulo">Da barriga de seis meses à volta ao treino</h2>
+      <p class="blk-gs__lead" data-acende>A gestação e o pós-parto são acompanhados no mesmo endereço. Quem fez Pilates na gravidez volta para a fisioterapia pélvica sabendo onde fica a sala, e a clínica já conhece o corpo que vai tratar.</p>
+    </div>
+    <ol class="blk-gs__linha">
+      <li data-pilha>
+        <span class="blk-gs__fase">Na gestação</span>
+        <span class="blk-gs__icone"><!--icone:mulher--></span>
+        <h3>Pilates para gestantes</h3>
+        <p>Exercício adaptado a cada trimestre, para a lombar aguentar o peso da barriga e o assoalho pélvico chegar preparado ao parto.</p>
+      </li>
+      <li data-pilha>
+        <span class="blk-gs__fase">Logo depois do parto</span>
+        <span class="blk-gs__icone"><!--icone:laser--></span>
+        <h3>Laser e taping</h3>
+        <p>Laserterapia para ajudar na cicatrização e taping para dar suporte ao abdômen e à coluna nas primeiras semanas com o bebê no colo.</p>
+      </li>
+      <li data-pilha>
+        <span class="blk-gs__fase">Nos meses seguintes</span>
+        <span class="blk-gs__icone"><!--icone:check--></span>
+        <h3>Fisioterapia pélvica</h3>
+        <p>Avaliação do assoalho pélvico e exercícios para escape de urina, dor na relação e a volta segura à atividade física.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-gs{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 6%,var(--bg))}
+.blk-gs__cab{max-width:46rem}
+.blk-gs__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-gs__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-gs__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-gs__linha{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-gs__linha li{position:relative;padding:var(--sp-4);border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 18%,transparent);box-shadow:0 18px 40px -28px color-mix(in srgb,var(--brand) 60%,transparent)}
+.blk-gs__fase{display:block;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:color-mix(in srgb,var(--ink) 55%,transparent);margin-bottom:var(--sp-3)}
+.blk-gs__icone{display:inline-flex;width:3rem;height:3rem;align-items:center;justify-content:center;border-radius:50%;background:var(--brand);color:var(--bg)}
+.blk-gs__icone svg{width:1.4rem;height:1.4rem}
+.blk-gs__linha h3{margin:var(--sp-3) 0 .4rem;font-family:var(--f-display);font-size:1.4rem;line-height:1.15;color:var(--ink)}
+.blk-gs__linha p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:900px){
+  .blk-gs__linha{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--sp-4)}
+  .blk-gs__linha li::after{content:"";position:absolute;top:calc(var(--sp-4) + 3.6rem);right:calc(-1 * var(--sp-4));width:var(--sp-4);height:2px;background:color-mix(in srgb,var(--brand) 40%,transparent)}
+  .blk-gs__linha li:last-child::after{display:none}
+}
+</style>

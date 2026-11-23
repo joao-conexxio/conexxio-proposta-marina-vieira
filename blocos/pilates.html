@@ -1,0 +1,43 @@
+<section class="blk-pl" id="pilates">
+  <div class="wrap blk-pl__grade">
+    <figure class="blk-pl__foto" data-reveal>
+      <!--foto:midia/f06.jpg|Estúdio de Pilates da clínica, com cadillac, step chair e bolas suíças-->
+      <figcaption>O estúdio, no mesmo endereço da fisioterapia.</figcaption>
+    </figure>
+    <div>
+      <div data-reveal>
+        <p class="blk-pl__eyebrow">Pilates</p>
+        <h2 class="blk-pl__titulo">Uma aula para cada idade</h2>
+        <p class="blk-pl__lead" data-acende>Os aparelhos ficam a poucos passos da maca. Quem termina a fisioterapia continua no Pilates na mesma casa, sem recomeçar a explicar a própria história.</p>
+      </div>
+      <ul class="blk-pl__lista">
+        <li data-reveal style="--d:0ms"><span class="blk-pl__icone"><!--icone:coluna--></span><div><h3>Adultos</h3><p>Força, postura e menos dor nas costas de quem passa o dia sentado.</p></div></li>
+        <li data-reveal style="--d:80ms"><span class="blk-pl__icone"><!--icone:osso--></span><div><h3>Idosos</h3><p>Equilíbrio e confiança para andar, subir escada e levantar do chão.</p></div></li>
+        <li data-reveal style="--d:160ms"><span class="blk-pl__icone"><!--icone:estrela--></span><div><h3>Crianças</h3><p>Postura e consciência do corpo, com aula no ritmo delas.</p></div></li>
+        <li data-reveal style="--d:240ms"><span class="blk-pl__icone"><!--icone:mulher--></span><div><h3>Gestantes</h3><p>Exercício seguro em cada trimestre da gravidez.</p></div></li>
+        <li data-reveal style="--d:320ms"><span class="blk-pl__icone"><!--icone:agenda--></span><div><h3>Personal</h3><p>Aula privada e individual, no horário que couber na sua semana.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-pl{padding-block:var(--sp-section)}
+.blk-pl__grade{display:grid;gap:var(--sp-5)}
+.blk-pl__foto{margin:0}
+.blk-pl__foto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius)}
+.blk-pl__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-label);letter-spacing:.04em;color:color-mix(in srgb,var(--ink) 60%,transparent)}
+.blk-pl__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-pl__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-pl__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-pl__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-pl__lista li{display:flex;gap:var(--sp-3);align-items:flex-start;padding:var(--sp-3) 0;border-top:1px solid color-mix(in srgb,var(--ink) 12%,transparent)}
+.blk-pl__icone{flex:none;display:inline-flex;width:2.6rem;height:2.6rem;align-items:center;justify-content:center;border-radius:50%;background:color-mix(in srgb,var(--brand) 12%,var(--bg));color:var(--brand)}
+.blk-pl__icone svg{width:1.25rem;height:1.25rem}
+.blk-pl__lista h3{margin:0 0 .2rem;font-family:var(--f-display);font-size:1.2rem;line-height:1.2;color:var(--ink)}
+.blk-pl__lista p{margin:0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+@media (min-width:900px){
+  .blk-pl__grade{grid-template-columns:minmax(0,5fr) minmax(0,7fr);align-items:center;gap:var(--sp-6,4rem)}
+  .blk-pl__foto img{aspect-ratio:3/4}
+}
+</style>
